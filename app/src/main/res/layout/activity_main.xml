@@ -18,24 +18,27 @@
         <LinearLayout
             android:layout_height="wrap_content"
             android:orientation="vertical"
-
+            android:padding="10dp"
+            android:gravity="center"
             >
 
 
 
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-
-
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/bell"
                 />
 
 
             <TextView
+                android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Testing text"
+                android:text="Alarm"
+                android:textColor="#474747"
                 android:gravity="center"
+                android:textStyle="bold"
                 />
 
 
